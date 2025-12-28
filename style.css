@@ -164,9 +164,6 @@ header section{
     
 }
 
-.download:hover {
-    
-}
 
 header h1{
     font-size: 3em;
@@ -336,7 +333,7 @@ main h2{
 
 .faq label {
     color:black;
-display: block;
+    display: block;
   padding: 1em;
   background-color: transparent;
   margin-top: 0.5em;
@@ -365,11 +362,13 @@ display: block;
   margin-bottom: 1em;
   
   
+  
 }
 
 .faq input[type="radio"]:checked + label + .answer {
   display: block;
 }
+
 
 .about-section1{
     background-color: #C5C7C4;
@@ -381,6 +380,7 @@ display: block;
 
 .about-section1 h2{
     font-weight: 300;
+    
 }
 
 .about-section1 p{
@@ -402,6 +402,7 @@ display: block;
     display: flex;
     margin: 0 auto;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .about-section2 h1{
@@ -465,6 +466,8 @@ display: block;
     padding-left: 2em;
     
 }
+
+
 
 .bericht{
     padding-bottom: 2em;
