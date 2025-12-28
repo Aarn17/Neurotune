@@ -34,6 +34,10 @@ nav{
    
 }
 
+.mainfaq{
+    padding-top: 2em;
+}
+
 .links {
     text-decoration: none;
     color: black;
@@ -148,6 +152,10 @@ header{
 header section{
     padding-left: 2em;
     padding-top: 2em;
+}
+
+.indexsection1 p{
+    padding-bottom: 1em;
 }
 
 .btn{
@@ -372,6 +380,7 @@ main h2{
 
 .about-section1{
     background-color: #C5C7C4;
+    padding-top: 2em;
 }
 .about-section1 h1{
     text-align: center;
