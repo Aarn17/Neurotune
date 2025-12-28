@@ -30,39 +30,46 @@
         </nav>
     </header>
     <main>
-        <h1>Contact us</h1>
-        <form action="#">
-            <div>
-                <label for="topic">Topic</label>
-                <select name="topic" id="topic">
-                    <option value=""disabled selected>Select topic</option>
-                    <option value="support">Support</option>
-                    <option value="general">General question</option>
-                    <option value="other">Other</option>
-                </select>
+        <section class="contact-section">
+            <div class="contact">
+                <h1>Contact us</h1>
+                <p>Have a question, suggestion, or just want to say hello? We’d love to hear from you!  Fill out the form below or reach out to us directly, and we’ll get back to you as soon as possible.</p>
+                <form action="contact-form">
+                    <div class="topic">
+                        <label for="topic"></label>
+                        <select name="topic" id="topic">
+                            <option value=""disabled selected>Select topic</option>
+                            <option value="support">Support</option>
+                            <option value="general">General question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="Your name">Your name</label>
+                        <input type="text" id="Your name">
+                    </div>
+
+                    <div>
+                        <label for="e-mail">e-mail</label>
+                        <input type="text" id="e-mail">
+                    </div>
+
+                    <div>
+                        <label for="description">Description</label>
+                        <input type="text" id="Description">
+                    </div>
+
+                    <a class="btn" href="#">Send request</a>
+                </form>
             </div>
 
             <div>
-                <label for="Your name">Your name</label>
-                <input type="text" id="Your name">
-            </div>
-
-            <div>
-                <label for="e-mail">e-mail</label>
-                <input type="text" id="e-mail">
-            </div>
-
-            <div>
-                <label for="description">Description</label>
-                <input type="text" id="Description">
-            </div>
-
-            <a class="btn" href="#">Send request</a>
-        </form>
-        
-        <div>
-        <img src="./images/contact us kaart.jpg" alt="locatie">
+        <img class="kaart" src="./images/contact us kaart.jpg" alt="locatie">
         </div>
+        </section>
+        
+        
         
     </main>
 

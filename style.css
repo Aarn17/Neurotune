@@ -416,3 +416,103 @@ display: block;
     text-align: center;
     margin: 0 auto;
 }
+
+/*CONTACT*/
+
+.contact-section{
+    background-color: #C5C7C4;
+    padding-top: 2em;
+    
+}
+
+
+.contact-section p{
+    max-width: 20em;
+    margin: 0 auto;
+    padding-top: 1em;
+
+}
+.contact{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: black;
+}
+
+.contact h1{
+    font-weight: 400;
+}
+.contact input{
+    border: solid black;
+    background-color: transparent;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+    outline: none;
+    margin: 2em;
+    width: 70%;
+    color: black;
+    caret-color: black;
+    
+}
+
+.contact label{
+    position: absolute;
+    padding-left: 2em;
+    
+}
+
+.bericht{
+    padding-bottom: 2em;
+}
+
+.topic{
+    padding-top: 2em;
+    padding-bottom: 2em;
+     position: relative;
+    width: 100%;
+    
+}
+
+#topic {
+    padding: 1em;
+    border: solid 0.1em black;
+    border-radius: 0.6em ;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border 0.3s, box-shadow 0.3s;
+    
+    
+}
+
+#topic:focus{
+    outline: none;
+    border-color: black;
+    background-color: #7D908C;
+}
+
+#topic{
+     background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+
+
+.kaart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;    
+    max-width: 15em;
+    padding-top: 5em;
+    
+}
+
