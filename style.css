@@ -262,7 +262,7 @@ header p{
 @media(min-width:1200px) {
     header p{
         width: 100%;
-        max-width: 40em;
+        max-width: 30em;
         font-size: 1.6em;
         
     }
@@ -365,6 +365,20 @@ main{
         gap: 10em;
         padding-top: 2em;
     }
+
+    .section1 h2{
+        font-size: 2em;
+    }
+
+    .section1 p{
+        font-size: 1.6em;
+    }
+}
+
+@media(min-width:1200px) {
+    .section1{
+        gap: 20em;
+    }
 }
 
 .article p{
@@ -444,6 +458,7 @@ footer{
     grid-template-columns: repeat(2,1fr);
     gap: 2em;
     text-align: left;
+    
 }
 
 footer ul{
@@ -458,6 +473,7 @@ footer ul{
 
 footer li{
     margin-bottom: 0.4em;
+    display: block;
     
 }
 
@@ -492,12 +508,22 @@ footer a img{
         margin-top: -10em;
         margin-bottom: -7em;
     }
+
+    footer{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3em;
+        align-items: start;
+    }
 }
 
 @media (min-width:1200px) {
     .wave{
         margin-top: -18em;
         margin-bottom: -10em;
+    }
+
+    .footer {
+
     }
 }
 
