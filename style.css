@@ -456,7 +456,7 @@ main h2{
     font-weight: 400;
 }
 .contact input{
-    border: solid black;
+    border: solid 0.1em black;
     background-color: transparent;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -487,10 +487,11 @@ main h2{
      position: relative;
     width: 100%;
     
+    
 }
 
 #topic {
-    padding: 1em;
+    padding: 1em 2em 1em 2em;
     border: solid 0.1em black;
     border-radius: 0.6em ;
     background-color: transparent;
@@ -499,6 +500,7 @@ main h2{
     -moz-appearance: none;
     cursor: pointer;
     transition: border 0.3s, box-shadow 0.3s;
+    
     
     
 }
