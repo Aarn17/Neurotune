@@ -197,6 +197,7 @@ header section{
 }
 
 .btn{
+    display: inline-block;
     text-decoration: none;
     background-color: #7D908C;
     color: whitesmoke;
@@ -239,8 +240,49 @@ header p{
     .hero{
         transform: translateY(-0.9em);
     }
+
+    header p{
+        width: 100%;
+        max-width: 30em;
+        
+    }
+
+    .indexsection1 p{
+    padding-bottom: 3em;
 }
 
+.btn{
+    font-size: 1.5em;
+}
+
+
+}
+
+@media(min-width:1200px) {
+    header p{
+        width: 100%;
+        max-width: 40em;
+        font-size: 1.6em;
+        
+    }
+
+    header h1{
+        font-size: 4em;
+    }
+
+    .btn{
+        font-size: 2em;
+    }
+
+    .hero{
+        
+        width: 100%;
+        max-width: 60em;
+        margin-top: -15em;
+        
+        
+    }
+}
 /* SECTION 1*/
 
 main{
@@ -284,12 +326,14 @@ main{
         display: flex;
         justify-content: center;
         gap: 2em;
+        padding-top: 2em;
     }
 }
 
 @media(min-width:1200px) {
     .section1{
         gap: 10em;
+        padding-top: 2em;
     }
 }
 
