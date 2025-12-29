@@ -522,8 +522,15 @@ footer a img{
         margin-bottom: -10em;
     }
 
-    .footer {
+    .contact-footer{
+        padding-left: 5em;
+    }
+}
 
+@media (min-width:1400px) {
+    .contact-footer{
+        padding-left: 8em;
+        
     }
 }
 
@@ -570,7 +577,6 @@ main h2{
   display: none;
   padding: 1em;
   background-color: transparent;
-  border-left: 3px solid #7D908C;
   margin-bottom: 1em;
   
   
@@ -581,6 +587,14 @@ main h2{
   display: block;
 }
 
+@media(min-width:768px) {
+    .faq{
+        max-width: 50em;
+        margin: 0 auto;
+        
+        
+    }
+}
 
 .about-section1{
     background-color: #C5C7C4;
