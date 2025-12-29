@@ -16,6 +16,7 @@ nav{
     
     display: flex;
     position: relative;
+    justify-content: center;
     text-align: center;
     align-items: center;
     padding: 1em;
@@ -31,6 +32,8 @@ nav{
    justify-content: center;
    margin: 0 auto;
    align-items: center;
+   margin-left: auto;
+   margin-right: auto;
    
    
 }
@@ -144,6 +147,7 @@ nav{
     .logo{
         justify-content: flex-start;
         margin: 0;
+        padding-left: 1.2em;
         
     }
 
