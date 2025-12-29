@@ -602,6 +602,7 @@ main h2{
 .about-section1{
     background-color: #C5C7C4;
     padding-top: 2em;
+    
 }
 .about-section1 h1{
     text-align: center;
@@ -618,13 +619,16 @@ main h2{
     max-width: 20em;
     text-align: center;
     margin: 0 auto;
+    margin-bottom:-5em ;
 }
 
 .aboutimg1{
     width: 100%;
-    margin-top: -3em;
-    transform: translateY(0.35em);
+    max-width: 25em;
+    display: flex;
+    margin: 0 auto;
 }
+
 
 .aboutimg2{
     width: 100%;
@@ -633,6 +637,11 @@ main h2{
     margin: 0 auto;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+.about-section2{
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .about-section2 h1{
@@ -648,6 +657,54 @@ main h2{
     max-width: 20em;
     text-align: center;
     margin: 0 auto;
+}
+
+@media(min-width:1200px) {
+    .about-wrapper1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: -5em;
+        
+    }
+
+     .about-wrapper1 > div:first-child {
+        text-align: left;
+    }
+
+    .about-wrapper1 {
+        grid-template-columns: auto 1fr;
+    }
+
+    .about-wrapper1 > div:last-child {
+        order: -1;
+    }
+
+    .aboutimg1{
+        padding-left: 10em;
+    }
+
+    .about-wrapper2{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 20em;
+    }
+}
+
+@media(min-width:1400px) {
+    .aboutimg1{
+        padding-left: 16em;
+    }
+}
+
+@media(min-width:1600px) {
+    .aboutimg1{
+        padding-left: 26em;
+    }
 }
 
 /*CONTACT*/
