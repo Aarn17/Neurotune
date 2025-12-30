@@ -72,6 +72,8 @@ nav{
     
 }
 
+
+
 .hamburger span {
     position: absolute;
     height: 2px;
@@ -82,6 +84,7 @@ nav{
     cursor: pointer;
     transition: all 0.3s ease-in;
 }
+
 
 .hamburger span:nth-child(1) {
     top: 6px;
@@ -201,7 +204,7 @@ header section{
     display: inline-block;
     text-decoration: none;
     background-color: #7D908C;
-    color: whitesmoke;
+    color: white;
     border-radius: 0.8em;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
@@ -209,6 +212,13 @@ header section{
     padding-right: 1em;
     font-size: 1.1em;
     position: relative;
+    z-index: 10;
+    
+}
+
+.btn:hover{
+    background-color: #b6a1a1;
+    transition: all 0.2s ease-in-out;
     
 }
 
@@ -443,6 +453,11 @@ main{
         justify-content: center;
         margin: 0 auto;
     }
+
+    .article p{
+   
+    font-size: 1.6em;
+}
 }
 
 .section3{
@@ -487,7 +502,7 @@ footer a img{
 }
 
 .footerlink:hover{
-    color: #7D908C;
+    color: white;
     transition: all 0.1s ease-in;
 }
 
@@ -545,6 +560,11 @@ main h2{
     padding: 2em;
     padding-right: 4em;
     padding-left: 4em;
+    
+}
+
+.mainfaq{
+    background-color: #C5C7C4;
 }
 .faq input[type="radio"] {
   display: none;
@@ -570,6 +590,7 @@ main h2{
 
 .faq input[type="radio"]:checked + label {
   color:black;
+  background-color: #7D908C;
    
 }
 
@@ -667,6 +688,39 @@ main h2{
     margin: 0 auto;
 }
 
+@media(min-width:900px) {
+        .about-wrapper1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: -5em;
+        
+    }
+
+     .about-wrapper1 > div:first-child {
+        text-align: left;
+    }
+
+    .about-wrapper1 {
+        grid-template-columns: auto 1fr;
+    }
+
+    .about-wrapper1 > div:last-child {
+        order: -1;
+    }
+
+
+    .about-wrapper2{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 10em;
+    }
+}
+
 @media(min-width:1200px) {
     .about-wrapper1{
         display: grid;
@@ -756,6 +810,21 @@ main h2{
     
 }
 
+.contact textarea {
+  border: solid 0.1em black;
+  background-color: transparent;
+  border-radius: 0.5em;
+  padding: 0.8em;
+  font-size: 1em;
+  outline: none;
+  margin: 2em;
+  width: 68%;
+  color: black;
+  caret-color: black;
+  resize: vertical; /* gebruiker mag groter maken */
+  min-height: 8em;
+}
+
 .contact label{
     position: absolute;
     padding-left: 2em;
@@ -766,6 +835,7 @@ main h2{
 
 .bericht{
     padding-bottom: 2em;
+    
 }
 
 .topic{
@@ -773,11 +843,15 @@ main h2{
     padding-bottom: 2em;
      position: relative;
     width: 100%;
-    
-    
+}
+
+#topic:hover{
+    background-color: #7D908C;
+    transition: all 0.2s ease-in-out;
 }
 
 #topic {
+    
     padding: 1em 2em 1em 2em;
     border: solid 0.1em black;
     border-radius: 0.6em ;
@@ -810,11 +884,22 @@ main h2{
 .kaart{
     display: block;
     margin: 0 auto;
-    width: 100%;    
-    max-width: 15em;
+    width: 100%;
+    justify-content: center;  
     border-radius: 1em;
     
 }
 .kaart-wrapper{
     padding-top: 5em;
 }
+
+
+
+@media(min-width:768px){
+    .contact {
+        width: 100%;
+        max-width: 50em;
+        margin: 0 auto;
+  }
+}
+
