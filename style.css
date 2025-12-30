@@ -521,19 +521,18 @@ footer a img{
         margin-top: -18em;
         margin-bottom: -10em;
     }
-
-    .contact-footer{
-        padding-left: 5em;
+    
+    footer{
+        padding-left: 6em;
     }
 }
 
-@media (min-width:1400px) {
-    .contact-footer{
-        padding-left: 8em;
-        
-        
+@media(min-width:1400px) {
+    footer{
+        padding-left: 9em;
     }
 }
+
 
 /*FAQ*/
 
@@ -552,8 +551,8 @@ main h2{
 }
 
 .faq label {
-    color:black;
-    display: block;
+  color:black;
+  display: block;
   padding: 1em;
   background-color: transparent;
   margin-top: 0.5em;
@@ -575,18 +574,27 @@ main h2{
 }
 
 .answer {
-  display: none;
+   max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
   padding: 1em;
   background-color: transparent;
   margin-bottom: 1em;
   
-  
-  
 }
 
 .faq input[type="radio"]:checked + label + .answer {
-  display: block;
+    max-height: 300px;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 1em;
 }
+
 
 @media(min-width:768px) {
     .faq{
