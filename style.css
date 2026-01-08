@@ -835,6 +835,10 @@ main h2{
     display: none;
 }
 
+.validateheaderabout {
+    display: none;
+}
+
 .bericht{
     padding-bottom: 2em;
     
