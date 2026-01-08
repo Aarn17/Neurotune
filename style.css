@@ -831,7 +831,9 @@ main h2{
     
 }
 
-
+.invisibleheadercontact {
+    display: none;
+}
 
 .bericht{
     padding-bottom: 2em;
